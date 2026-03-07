@@ -1,0 +1,26 @@
+name: professional_cv
+description: "A simple Professional CV/Portfolio mobile application for university project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.10.8 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.2.1
+  google_fonts: ^6.1.0
+  font_awesome_flutter: ^10.6.0
+  cached_network_image: ^3.3.0
+  intl: ^0.18.1
+  # Simplified state management (optional, but Provider is easier for uni level than BLoC)
+  provider: ^6.0.5
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/cv_data.json
+    - "assets/Screenshot 2026-02-23 091327.png"

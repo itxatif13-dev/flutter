@@ -1,0 +1,89 @@
+{
+  "personal_info": {
+    "full_name": "Muhammad Atif",
+    "job_title": "Student of cs",
+    "email": "itxati13@gmail.com",
+    "phone": "03266162971",
+    "location": "Muzaffargarh, DGKHAN",
+    "bio": "\"Atif here — CS student, professional problem-solver, and the friend who actually listens. Bring me your bugs, your ideas, or just yourself — we'll figure it out together.\"",
+    "profile_image": "assets/Screenshot 2026-02-23 091327.png",
+    "social_links": {
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "github": "https://github.com/johndoe",
+      "twitter": "https://twitter.com/johndoe"
+    }
+  },
+  "skills": {
+    "technical": [
+      {"name": "Flutter", "level": 0.95},
+      {"name": "Amazon", "level": 0.9},
+      {"name": "E-commerce", "level": 0.85},
+      {"name": "App development", "level": 0.6},
+      {"name": "trading", "level": 0.45}
+    ],
+    "soft_skills": [
+      {"name": "Leadership", "level": 0.8},
+      {"name": "Communication", "level": 0.9},
+      {"name": "Problem Solving", "level": 0.95}
+    ],
+    "languages": [
+      {"name": "English", "level": 0.60},
+      {"name": "urdu", "level": 1.0}
+    ]
+  },
+  "experience": [
+    {
+      "company": "online trade inst.",
+      "position": "Lead app Developer",
+      "period": "2021 - Present",
+      "description": "Leading a team of 5 developers to build a multi-platform application.",
+      "technologies": ["Flutter", "Riverpod", "Firebase"]
+    },
+    {
+      "company": "comsats uni",
+      "position": "Flutter Developer",
+      "period": "present",
+      "description": "Developed and maintained several e-commerce applications in my during lect.",
+      "technologies": ["Flutter", "Bloc", "Node.js"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Fintech App",
+      "description": "A comprehensive banking solution with real-time transactions.",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
+      "link": "https://github.com/johndoe/fintech"
+    },
+    {
+      "title": "E-commerce Platform",
+      "description": "Scalable online marketplace with AR integration.",
+      "image": "https://images.unsplash.com/photo-1557821552-17105176677c?w=500",
+      "link": "https://github.com/johndoe/shop"
+    }
+  ],
+  "education": [
+    {
+      "institution": "comsats university islamabad, Vehari campus",
+      "degree": "B.Sc. in Computer Science",
+      "period": "2024-2028",
+      "gpa": "3.3/4.0"
+    }
+  ],
+  "hobbies": [
+    {
+      "name": "Photography",
+      "description": "Capturing urban landscapes and nature.",
+      "icon": "camera"
+    },
+    {
+      "name": "Hiking",
+      "description": "Exploring mountain trails.",
+      "icon": "terrain"
+    },
+    {
+      "name": "Coding",
+      "description": "Contributing to open source.",
+      "icon": "code"
+    }
+  ]
+}
