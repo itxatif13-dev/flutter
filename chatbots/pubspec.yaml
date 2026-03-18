@@ -1,0 +1,51 @@
+name: chatbots
+description: "A revolutionary AI Chatbot Flutter application."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  
+  # Functional/Immutable
+  freezed_annotation: ^2.4.1
+  dartz: ^0.10.1
+  
+  # Networking
+  dio: ^5.4.0
+  web_socket_channel: ^2.4.0
+  
+  # UI & Animations
+  flutter_spinkit: ^5.2.0
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.0
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.1.0
+  font_awesome_flutter: ^10.6.0
+  glassmorphism: ^3.0.0
+  
+  # AI & Media
+  google_generative_ai: ^0.4.0 # Upgraded to support systemInstruction
+  image_picker: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  
+  # Code Generation
+  build_runner: ^2.4.7
+  riverpod_generator: ^2.3.9
+  freezed: ^2.4.5
+
+flutter:
+  uses-material-design: true
